@@ -31,8 +31,20 @@ To write a Python program that:
    - For each element in the stack, print the index and the value at that index.
 
 ## 📝 Program
-Add Code here
+```
+stack = []
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print('Initial stack: ' + str(stack))
+
+for i in range(len(stack)):
+    print(i, stack[i])
+```
 
 ## Sample Input & Output
+<img width="1150" height="246" alt="image" src="https://github.com/user-attachments/assets/77ad18d4-49d2-424b-90cf-f4d58b21b149" />
 
 ## Result
+Thus, the python program to check and print the index values of the elements stored in the stack using linked list is executed successfully.
